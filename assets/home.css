@@ -1,0 +1,140 @@
+/* Styles for the shopping cart */
+.carrito {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 35%;
+    overflow: hidden;
+}
+
+.header-carrito {
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.carrito-items {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.empty-cart-message{
+    text-align: center;
+     margin-top: 100px;
+}
+
+.itemz {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+}
+
+.item-image img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.btn-plus{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 25px;
+    height: 25px;
+}
+.btn-minus{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 15px;
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 25px;
+    height: 25px;
+}
+
+.item-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-quantity {
+    display: flex;
+    align-items: center;
+}
+.item-quantity-value {
+    margin: 0 10px;
+}
+
+.item-details {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.item-name {
+   margin-left: 15px;
+   margin-bottom: 10px;
+}
+.item-price{
+    margin-left: 80px;
+}
+.btn-delete{
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.carrito-total {
+    background-color: #dfdfdf;
+    padding: 30px;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.btn-pagar {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-pagar:hover {
+    scale: 1.05;
+}
+
+/* Responsive */
+@media screen and (max-width: 850px) {
+    .contenedor {
+        display: block;
+    }
+    .contenedor-items {
+        width: 100% !important;
+    }
+    .carrito {
+        width: 100%;
+    }
+}

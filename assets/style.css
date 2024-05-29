@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/* nav bar */
+header{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.171);
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+.sticky-nav {
+    position: fixed;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.sticky-nav .container {
+    background-color: #fff; /* Optional: Adds a background color */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Adds a shadow effect */
+}
+
+/* main section */
+.img{
+    background-image: url('../images/main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.content{
+    padding-top: 80px;
+    padding-left: 20px;
+    margin-top: 100px;
+    margin-left: 70px;
+    animation: slideInleft 2s ease-in-out 1s 1 normal none;
+}
+@keyframes slideInleft{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+/* card section */
+.img-cart{
+    height: 300px;
+
+}
+.card-all{
+    height: 400px;
+    width: 550px;
+
+}
+.review-all{
+    width: 250px;
+    height: 250px;
+
+}
+/* about */
+#b.image{
+    height: 400px;
+    
+}
+#image{
+    height: 400px;
+    /* background-position: center;
+    background-size: cover; */
+    /* object-fit: cover; */ 
+}
+
+/* .item{
+    height: 300px;
+} */
+
+/* instagram */
+.fab{
+width: 15px;
+  
+}
+
+/* .logo-img{
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+} */
+
+  /* Mothers day */
+.bg-img{
+    background-image: url('../images/img4.jpeg');
+    height: 500px;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* contact */
+.custom-textarea {
+    padding: 16px;
+    margin-bottom: 32px;
+    outline: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s ease-in-out;
+}
+
+.custom-textarea:hover {
+    border: 2px solid #ff69b4; /* Hex code for pink color */
+}
+
+
+
+
+ @media (max-width:450px){
+ html{
+ font-size: 50%;
+ }
+    
+ @media (max-width: 768px) {
+/* .img {
+ height: 400px; 
+} */
+.content {
+margin-top: 50px; 
+margin-left: 20px;
+}
+.content h1 {
+    font-size: 3.5rem;
+}
+.content h2 {
+    font-size: 2rem; 
+}
+p {
+    font-size: 1.2rem; 
+}
+button {
+    font-size: 1.5rem; 
+    padding: 8px 16px; 
+}
+}
+
+@media (max-width: 768px) {
+#image{
+     height: 300px;
+}
+}
+
+@media (min-width: 768px) {
+    .content span{
+         font-size: 2rem;
+    }
+    }
+}
+
+
+
