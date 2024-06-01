@@ -136,6 +136,13 @@ width: 15px;
 margin-top: 50px; 
 margin-left: 20px;
 }
+     .img{
+    background-image: url('../images/main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 400px;
+}
 .content h1 {
     font-size: 3.5rem;
 }
