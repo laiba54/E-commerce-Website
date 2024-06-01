@@ -1,3 +1,21 @@
+<style>
+    @media (max-width: 768px) {
+        .navbar button svg {
+            width: 30px; 
+            height: 30px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .navbar ul li a {
+            font-size: 1.5rem; 
+            padding: 10px 20px;
+        }
+    }
+</style>
+
+
+
 <header class="sticky-nav">
         <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
         <div class="container mx-auto">
