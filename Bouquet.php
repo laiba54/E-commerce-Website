@@ -291,21 +291,21 @@ include("header.php");
                         <div class="w-full pb-8 overflow-hidden bg-white rounded-lg">
                            <img src="images/bcard40.jpeg" alt="image" class="w-full img-cart"/> 
                             <h1 class="mt-5 mb-5 text-2xl font-semibold text-center">Substitution Policy</h1>
-                            <button class="block px-4 py-3 m-auto text-xl border-2 border-pink-500 rounded-md hover:bg-pink-500 hover:text-white"><a href="Substitutionpolicy.html">Policy</a></button>
+                            <button class="block px-4 py-3 m-auto text-xl border-2 border-pink-500 rounded-md hover:bg-pink-500 hover:text-white"><a href="Substitutionpolicy.php">Policy</a></button>
                         </div>
                     </div>
                         <div class="w-full px-4 drop-shadow-lg md:w-full xl:w-full">
                             <div class="w-full pb-8 overflow-hidden bg-white rounded-lg">
                                <img src="images/bcard42.jpeg" alt="image" class="w-full img-cart"/>
                                 <h1 class="mt-5 mb-5 text-2xl font-semibold text-center">Delivery Information</h1>
-                                <button class="block px-4 py-3 m-auto text-xl border-2 border-pink-500 rounded-md hover:bg-pink-500 hover:text-white"><a href="deliveryinfo.html">Explore</a></button>   
+                                <button class="block px-4 py-3 m-auto text-xl border-2 border-pink-500 rounded-md hover:bg-pink-500 hover:text-white"><a href="deliveryinfo.php">Explore</a></button>   
                             </div>
                         </div>
                         <div class="w-full px-4 drop-shadow-lg md:w-full xl:w-full">
                             <div class="w-full pb-8 overflow-hidden bg-white rounded-lg">
                                <img src="images/bcard39.jpeg" alt="image" class="w-full img-cart"/>
                                 <h1 class="mt-5 mb-5 text-2xl font-semibold text-center">About the Shop</h1>
-                                <button class="block px-4 py-3 m-auto text-xl border-2 border-pink-500 rounded-md hover:bg-pink-500 hover:text-white"><a href="About.html">Know us</a></button>
+                                <button class="block px-4 py-3 m-auto text-xl border-2 border-pink-500 rounded-md hover:bg-pink-500 hover:text-white"><a href="About.php">Know us</a></button>
                             </div>
                         </div>
             </div>
